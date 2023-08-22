@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
     <title Artisticamente> </title>
+    <script>
+
+        function bglink1() {
+          document.body.style.backgroundImage = "url('pittura.png') ";
+          document.body.style.backgroundPosition = "center ";
+         document.body.style.backgroundSize = "auto";
+          document.body.style.backgroundRepeat = "no-repeat";
+        }
+        function bglink2() {
+          document.body.style.backgroundImage = "url('scultura.png')";
+          document.body.style.backgroundPosition = "center ";
+        //   document.body.style.backgroundSize = "cover";
+          document.body.style.backgroundRepeat = "no-repeat";
+        }
+        function bglink3() {
+          document.body.style.backgroundImage = "url('psicologia.png')";
+          document.body.style.backgroundPosition = "center ";
+        //   document.body.style.backgroundSize = "cover";
+          document.body.style.backgroundRepeat = "no-repeat";
+        }
+        function bglink4() {
+          document.body.style.backgroundImage = "url('fotografia.png')";
+          document.body.style.backgroundPosition = "center ";
+        //   document.body.style.backgroundSize = "cover";
+          document.body.style.backgroundRepeat = "no-repeat";
+        }
+        function bglink5() {
+          document.body.style.backgroundImage = "url('architettura.png')";
+          document.body.style.backgroundPosition = "center ";
+        //   document.body.style.backgroundSize = "cover";
+          document.body.style.backgroundRepeat = "no-repeat";
+        }
+        
+        function bgdef() {
+          document.body.style.background = "#9F8D77";
+        }
+        </script>
 </head>
-<body class="top">
-<div id="bg"></div>
+<body>
 
 
 <nav>
@@ -26,7 +65,15 @@
        </div>
 
 </nav>
-<div class="box">
+<div class="menu_centro">
+
+    <a href="#" class="link_hover" onmouseover="bglink1();" onmouseout="bgdef();"> PITTURA </a>
+    <a href="#" class="link_hover" onmouseover="bglink2();" onmouseout="bgdef();"> SCULTURA </a>
+    <a href="#" class="link_hover" onmouseover="bglink3();" onmouseout="bgdef();"> PSICOLOGIA </a>
+    <a href="#" class="link_hover" onmouseover="bglink4();" onmouseout="bgdef();"> FOTOGRAFIA </a>
+    <a href="#" class="link_hover" onmouseover="bglink5();" onmouseout="bgdef();"> ARCHITETTURA </a>
+    
+</div>
     
 </div>
 </body>
