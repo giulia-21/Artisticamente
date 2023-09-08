@@ -122,4 +122,17 @@ padding-top:200px;
         padding-top:10px;    }
   }
 
-  
+  .tit {
+    padding: 18px 0px;
+    font-size: 70px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .barra_footer {
+
+
+color: white;
+padding: 13px;
+  }
