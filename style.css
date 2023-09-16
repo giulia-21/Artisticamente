@@ -126,7 +126,7 @@ padding: 1px;
 padding-top:200px;
 
 }        
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 360px) {
     .centro { padding-top:10px;    }
   }
 
@@ -162,13 +162,14 @@ padding: 13px;
     
   }
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 360px) {
 
     .destro { width:100%; padding:unset;text-align: inherit;}
     .sinistro { width:100%; padding:unset;text-align: inherit;}
     .incipit h1{font-size:60px}
     .tit{font-size:60px}
     .incipit {width: 100%;}
+    .sfondo {width: 100%;}
   }
   .row{
 
