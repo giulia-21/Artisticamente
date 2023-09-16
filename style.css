@@ -32,6 +32,7 @@ body{
    
 padding: 10px;
 color: white;
+text-shadow: 0px 2px 9px black;
 }
 
 
@@ -72,6 +73,14 @@ color: white;
 
     
         .contenitore_testo{
+            width: 60%; 
+            margin: auto;  
+            color: white; 
+           font-size: 21px;
+           font-weight: 200;
+        }
+
+        .contenitore_testo_img{
             width: 80%; 
             margin: auto;  
             color: white; 
@@ -118,8 +127,7 @@ padding-top:200px;
 
 }        
 @media only screen and (max-width: 600px) {
-    .centro {
-        padding-top:10px;    }
+    .centro { padding-top:10px;    }
   }
 
   .tit {
@@ -136,3 +144,44 @@ padding-top:200px;
 color: white;
 padding: 13px;
   }
+
+  .destro{
+        float: right;
+        width: 45%;
+        padding: 20px;
+       
+  }
+
+  .sinistro{
+
+        float: left;
+        width: 45%;
+        padding: 20px;
+        
+        
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .destro { width:100%; padding:unset;text-align: inherit;}
+    .sinistro { width:100%; padding:unset;text-align: inherit;}
+    .incipit h1{font-size:60px}
+    .tit{font-size:60px}
+  }
+
+  .row{
+
+    content: "";
+     clear: both;
+   
+   }
+
+   .separatore{
+
+    height:60px;
+   }
+
+p {
+    line-height: 28px;
+}
