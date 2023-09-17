@@ -126,7 +126,7 @@ padding: 1px;
 padding-top:200px;
 
 }        
-@media  screen and (max-width: 540px) {
+@media only screen and (max-width: 540px) {
     .centro { padding-top:10px;    }
   }
 
@@ -162,12 +162,12 @@ padding: 13px;
     
   }
 
-  @media  screen and (max-width: 540px) {
+  @media only screen and (max-width: 540px) {
 
     .destro { width:100%; padding:unset;text-align: inherit;}
     .sinistro { width:100%; padding:unset;text-align: inherit;}
-    .incipit h1{font-size:60px}
-    .tit{font-size:60px}
+    .incipit h1{font-size:50px;}
+    .tit{font-size:60px;}
     .incipit {width: 100%;}
     .contenitore_testo {width: 80%;}
   }
