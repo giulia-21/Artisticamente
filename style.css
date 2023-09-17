@@ -162,14 +162,32 @@ padding: 13px;
     
   }
 
+  .ar{
+    padding: 150px 0px;
+
+}
+
+.ar h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+
+.ar h2{
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+
   @media only screen and (max-width: 540px) {
 
     .destro { width:100%; padding:unset;text-align: inherit;}
     .sinistro { width:100%; padding:unset;text-align: inherit;}
-    .incipit h1{font-size:35px;}
+    .incipit h1{font-size:60px;}
+    .ar h1{font-size:45px;}
     .tit{font-size:60px;}
     .incipit {width: 100%;}
     .contenitore_testo {width: 80%;}
+
   }
   .row{
 
