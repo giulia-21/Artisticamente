@@ -170,7 +170,8 @@ padding: 13px;
     .tit{font-size:60px;}
     .incipit {width: 100%;}
     .contenitore_testo {width: 80%;}
-    .AR h1 {font-size: 40px;}
+    .ar h1 {font-size: 40px;}
+    .ar {width: 100%;}
   }
   .row{
 
@@ -189,16 +190,16 @@ p {
 }
 
 
-.AR{
+.ar{
     padding: 150px 0px;
 }
 
-.AR h1{
+.ar h1{
     font-size: 80px;
     margin-bottom: 0px;
 }
 
-.AR h2{
+.ar h2{
     font-size: 35px;
             margin-top: 0px;
 }
