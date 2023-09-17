@@ -43,7 +43,18 @@
         }
         
         function bgdef() {
-          document.body.className = "bgbody"; 
+
+            if (window.innerWidth < 530 ){
+              document.body.style.backgroundImage = "url('img/ciao.png')";
+            }else{
+              
+              document.body.style.backgroundImage = "url('img/pensieri.png')";
+
+            }
+            document.body.style.backgroundSize = "cover";
+
+
+          
         }
         </script>
 </head>

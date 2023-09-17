@@ -183,7 +183,7 @@ padding: 13px;
 }
 
 
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-device-width: 540px) {
 
     .destro { width:100%; padding:unset;text-align: inherit;}
     .sinistro { width:100%; padding:unset;text-align: inherit;}
@@ -194,9 +194,7 @@ padding: 13px;
     .incipit {width: 100%;}
     .contenitore_testo {width: 80%;}
     .barra {margin-left: 38px;}
-    .bgbody {
-        background-image: url('img/Frame\ 3.png'); background-size: cover; width: 100%;
-      }
+    
 
   }
   .row{
