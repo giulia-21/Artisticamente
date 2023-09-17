@@ -195,7 +195,7 @@ padding: 13px;
     .contenitore_testo {width: 80%;}
     .barra {margin-left: 38px;}
     .bgbody {
-        background-image: url('img/Frame\ 3.png'); width: 100%; 
+        background-image: url('img/Frame\ 3.png'); background-size: cover; width: 100%;
       }
 
   }
