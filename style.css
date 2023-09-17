@@ -10,6 +10,11 @@ body{
     
     }
 
+.bgbody {
+  background-image: url('img/pensieri.png');  
+}
+
+
  img{
     max-width: 100%;
  }   
@@ -188,6 +193,10 @@ padding: 13px;
     .tit{font-size:60px;}
     .incipit {width: 100%;}
     .contenitore_testo {width: 80%;}
+    .barra {margin-left: 38px;}
+    .bgbody {
+        background-image: url('img/Frame\ 3.png'); width: 100%; 
+      }
 
   }
   .row{
